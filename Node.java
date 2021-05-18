@@ -1,3 +1,4 @@
+
 package GraphPackage;
 ///https://stackabuse.com/graphs-in-java-representing-graphs-in-code/
 public class Node {

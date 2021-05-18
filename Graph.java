@@ -1,13 +1,9 @@
 package GraphPackage;
-//https://stackabuse.com/graphs-in-java-representing-graphs-in-code/
 import java.util.HashMap;
 import java.util.LinkedList;
 
-public class Graph<T> implements GraphInterface<T> {
+public class Graph<T> implements GraphInterface {
 
-   
-
-    // Each node maps to a list of all his neighbors
     private HashMap<Node, LinkedList<Node>> adjacencyMap;
     private boolean directed;
 

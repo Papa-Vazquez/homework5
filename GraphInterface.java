@@ -1,6 +1,6 @@
 package GraphPackage;
-//https://stackabuse.com/graphs-in-java-representing-graphs-in-code/
-public interface GraphInterface<T> {
+
+public interface GraphInterface {
 	public void addEdgeHelper(Node a, Node b);
     public void addEdge(Node source, Node destination);
     public void arrayList();
@@ -12,3 +12,5 @@ public interface GraphInterface<T> {
     public void breadthFirstSearchHelper(Node node);
     public void breadthFirstSearch(Node node);
 }
+
+
